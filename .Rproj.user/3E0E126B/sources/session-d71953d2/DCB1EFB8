@@ -3,7 +3,7 @@
     "path": "C:/Users/avyas/OneDrive/Desktop/prodatphil/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "0",
+    "hash": "1138097399",
     "contents": "",
     "dirty": false,
     "created": 1750446422113.0,
@@ -11,14 +11,16 @@
     "relative_order": 2,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "22,0",
+        "scrollLine": "1"
     },
     "folds": "",
-    "lastKnownWriteTime": 1750446417,
+    "lastKnownWriteTime": 1750446841,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1750446417,
+    "last_content_update": 1750446841657,
     "read_only": false,
     "read_only_alternatives": []
 }
