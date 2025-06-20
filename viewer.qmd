@@ -1,0 +1,12 @@
+---
+title: "Viewer"
+format: html
+editor: visual
+---
+
+# Data Viewer
+
+This section is reserved for interactive viewers or embedded components.\
+You can later add iframes, TEI XML renderers, or RDF browsers here.
+
+------------------------------------------------------------------------

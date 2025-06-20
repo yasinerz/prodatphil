@@ -9,6 +9,12 @@ website:
         href: index.qmd
       - text: About
         href: about.qmd
+      - text: Viewer
+        href: viewer.qmd
+      - text: Dashboard
+        href: dashboard.qmd
+      - text: Notebooks
+        href: notebooks.qmd
 
 format:
   html:
@@ -16,4 +22,4 @@ format:
     css: styles.css
     toc: true
 
-output-dir: docs   # ← kök satır, başında hiçbir boşluk yok!
+output-dir: docs

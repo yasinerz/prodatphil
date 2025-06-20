@@ -1,11 +1,14 @@
 ---
 title: "prodatphil"
+format: html
+editor: visual
 ---
 
-This is a Quarto website.
+# Welcome to the PRODATPHIL Pilot Website
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This is a pilot platform for exploring digital tools in the humanities.\
+You can find interactive data viewers, dashboards, and example notebooks here.
 
-```{r}
-1 + 1
-```
+Navigate using the menu above.
+
+------------------------------------------------------------------------

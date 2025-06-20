@@ -1,0 +1,11 @@
+---
+title: "Dashboard"
+format: html
+editor: visual
+---
+
+# Dashboard
+
+This page will host interactive dashboards created with tools like Plotly, Leaflet, or embedded charts.
+
+Coming soon!

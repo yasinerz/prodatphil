@@ -1,0 +1,10 @@
+---
+title: "Notebooks"
+format: html
+editor: visual
+---
+
+# Research Notebooks
+
+This page will contain example Jupyter or Quarto notebooks for reproducible research.
+

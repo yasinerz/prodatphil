@@ -1,9 +1,12 @@
 ---
 title: "About"
+format: html
+editor: visual
 ---
 
-About this site
+# About This Project
 
-```{r}
-1 + 1
-```
+The PRODATPHIL project aims to support research data infrastructures in the humanities.\
+This pilot site was built using [Quarto](https://quarto.org) and is hosted via [GitHub Pages](https://pages.github.com).
+
+It demonstrates possible components for: - TEI/RDF data viewing - Interactive dashboards - Code notebooks for research documentation

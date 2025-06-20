@@ -1,16 +1,37 @@
 [
   {
+    "objectID": "viewer.html",
+    "href": "viewer.html",
+    "title": "Viewer",
+    "section": "",
+    "text": "Data Viewer\nThis section is reserved for interactive viewers or embedded components.\nYou can later add iframes, TEI XML renderers, or RDF browsers here."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "prodatphil",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Welcome to the PRODATPHIL Pilot Website\nThis is a pilot platform for exploring digital tools in the humanities.\nYou can find interactive data viewers, dashboards, and example notebooks here.\nNavigate using the menu above."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About This Project\nThe PRODATPHIL project aims to support research data infrastructures in the humanities.\nThis pilot site was built using Quarto and is hosted via GitHub Pages.\nIt demonstrates possible components for: - TEI/RDF data viewing - Interactive dashboards - Code notebooks for research documentation"
+  },
+  {
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Dashboard",
+    "section": "",
+    "text": "Dashboard\nThis page will host interactive dashboards created with tools like Plotly, Leaflet, or embedded charts.\nComing soon!"
+  },
+  {
+    "objectID": "notebooks.html",
+    "href": "notebooks.html",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Research Notebooks\nThis page will contain example Jupyter or Quarto notebooks for reproducible research."
   }
 ]
