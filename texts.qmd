@@ -8,6 +8,6 @@ editor: visual
 
 Below is a selection of digitized historical texts on classical psychology.
 
-- [The Influence of Darwin on Philosophy](deweyjohn.qmd)
+- [Studies in Logical Theory](deweyjohn.qmd)
 
 
