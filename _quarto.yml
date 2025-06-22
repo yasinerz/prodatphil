@@ -9,6 +9,8 @@ website:
         href: index.qmd
       - text: About
         href: about.qmd
+      - text: Texts
+        href: texts.qmd
       - text: Viewer
         href: viewer.qmd
       - text: Dashboard

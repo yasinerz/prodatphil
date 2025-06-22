@@ -1,0 +1,13 @@
+---
+title: "Texts"
+format: html
+editor: visual
+---
+
+# Classical Psychology Texts
+
+Below is a selection of digitized historical texts on classical psychology.
+
+- [The Influence of Darwin on Philosophy](deweyjohn.qmd)
+
+
