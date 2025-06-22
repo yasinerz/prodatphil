@@ -9,14 +9,14 @@ website:
         href: index.qmd
       - text: About
         href: about.qmd
-      - text: Texts
-        href: texts.qmd
       - text: Viewer
         href: viewer.qmd
       - text: Dashboard
         href: dashboard.qmd
       - text: Notebooks
         href: notebooks.qmd
+      - text: Texts
+        href: texts.qmd
 
 format:
   html:

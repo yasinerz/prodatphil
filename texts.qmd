@@ -1,13 +1,14 @@
 ---
-title: "Texts"
+title: "Listed Texts"
 format: html
 editor: visual
 ---
 
 # Classical Psychology Texts
 
-Below is a selection of digitized historical texts on classical psychology.
 
 - [Studies in Logical Theory](deweyjohn.qmd)
-- [Hereditary Talent and Character](hereditary-talent.qmd)
+- [Hereditary Talent and Character](hereditarytalent.qmd)
+- [(Review of) The Origin of Species by Means of Natural Selection](asagray.qmd)
+
 

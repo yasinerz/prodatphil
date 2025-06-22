@@ -4,8 +4,53 @@ format: html
 editor: visual
 ---
 
-# Dashboard
+# 📊 Interactive Dashboard
 
-This page will host interactive dashboards created with tools like Plotly, Leaflet, or embedded charts.
+This section will include interactive tools and visualizations for exploring classical psychology texts and their metadata.
 
-Coming soon!
+------------------------------------------------------------------------
+
+## 🔍 Planned Features
+
+-   Text length and date visualizations\
+-   Author frequency bar chart\
+-   Timeline of publications\
+-   Concordance tool for keyword search\
+-   Comparison of metadata fields
+
+------------------------------------------------------------------------
+
+## 🔠 Word Frequency Analysis
+
+The chart below shows, as an example, the most frequent 15 words with four or more letters from the selected article:
+
+**Studies in Logical Theory** by **John Dewey**
+
+```{python}
+#| echo: false
+#| message: false
+#| warning: false
+
+import pandas as pd
+import altair as alt
+from collections import Counter
+import re
+
+with open("deweyjohn.qmd", encoding="utf-8") as f:
+    text = f.read()
+
+words = re.findall(r'\b[a-zA-Z]{4,}\b', text.lower())
+freq = Counter(words).most_common(15)
+
+df = pd.DataFrame(freq, columns=["word", "count"])
+
+alt.Chart(df).mark_bar().encode(
+    x=alt.X("count:Q", title="Frequency"),
+    y=alt.Y("word:N", sort='-x', title="Word"),
+    tooltip=["word", "count"]
+).properties(
+    width=600,
+    height=400,
+    title="Top 15 Words"
+)
+```

@@ -1,12 +1,31 @@
 ---
-title: "Viewer"
+title: "Data Viewer"
 format: html
 editor: visual
 ---
 
-# Data Viewer
+## Classical Psychology
 
-This section is reserved for interactive viewers or embedded components.\
-You can later add iframes, TEI XML renderers, or RDF browsers here.
+::: {.card}
+### Studies in Logical Theory  
+**Author**: John Dewey  
+**Year**: 1903  
+**Genre**: Philosophy, Psychology  
+[📄 Read Full Text →](deweyjohn.qmd)
+:::
 
-------------------------------------------------------------------------
+::: {.card}
+### Hereditary Talent and Character  
+**Author**: Francis Galton  
+**Year**: 1865  
+**Genre**: Psychological Traits  
+[📄 Read Full Text →](hereditarytalent.qmd)
+:::
+
+::: {.card}
+### (Review of) The Origin of Species by Means of Natural Selection  
+**Author**: Asa Gray  
+**Year**: 1860  
+**Genre**: Evolution, Psychology  
+[📄 Read Full Text →](asagray.qmd)
+:::
