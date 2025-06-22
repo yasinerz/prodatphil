@@ -23,7 +23,7 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -67,6 +67,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
 
 
 <link rel="stylesheet" href="styles.css">
@@ -98,10 +104,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./texts.html"> 
-<span class="menu-text">Texts</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./viewer.html"> 
 <span class="menu-text">Viewer</span></a>
   </li>  
@@ -112,6 +114,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./notebooks.html"> 
 <span class="menu-text">Notebooks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./texts.html"> 
+<span class="menu-text">Texts</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -129,7 +135,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#dashboard" id="toc-dashboard" class="nav-link active" data-scroll-target="#dashboard">Dashboard</a></li>
+  <li><a href="#interactive-dashboard" id="toc-interactive-dashboard" class="nav-link active" data-scroll-target="#interactive-dashboard">📊 Interactive Dashboard</a>
+  <ul class="collapse">
+  <li><a href="#planned-features" id="toc-planned-features" class="nav-link" data-scroll-target="#planned-features">🔍 Planned Features</a></li>
+  <li><a href="#word-frequency-analysis" id="toc-word-frequency-analysis" class="nav-link" data-scroll-target="#word-frequency-analysis">🔠 Word Frequency Analysis</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -155,12 +165,104 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="dashboard" class="level1">
-<h1>Dashboard</h1>
-<p>This page will host interactive dashboards created with tools like Plotly, Leaflet, or embedded charts.</p>
-<p>Coming soon!</p>
+<section id="interactive-dashboard" class="level1">
+<h1>📊 Interactive Dashboard</h1>
+<p>This section will include interactive tools and visualizations for exploring classical psychology texts and their metadata.</p>
+<hr>
+<section id="planned-features" class="level2">
+<h2 class="anchored" data-anchor-id="planned-features">🔍 Planned Features</h2>
+<ul>
+<li>Text length and date visualizations<br>
+</li>
+<li>Author frequency bar chart<br>
+</li>
+<li>Timeline of publications<br>
+</li>
+<li>Concordance tool for keyword search<br>
+</li>
+<li>Comparison of metadata fields</li>
+</ul>
+<hr>
+</section>
+<section id="word-frequency-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="word-frequency-analysis">🔠 Word Frequency Analysis</h2>
+<p>The chart below shows, as an example, the most frequent 15 words with four or more letters from the selected article:</p>
+<p><strong>Studies in Logical Theory</strong> by <strong>John Dewey</strong></p>
+<div id="43f94554" class="cell" data-message="false" data-execution_count="1">
+<div class="cell-output cell-output-display" data-execution_count="1">
+
+<style>
+  #altair-viz-a0f9e1a091f4433abb9fe45515ea91cc.vega-embed {
+    width: 100%;
+    display: flex;
+  }
+
+  #altair-viz-a0f9e1a091f4433abb9fe45515ea91cc.vega-embed details,
+  #altair-viz-a0f9e1a091f4433abb9fe45515ea91cc.vega-embed details summary {
+    position: relative;
+  }
+</style>
+<div id="altair-viz-a0f9e1a091f4433abb9fe45515ea91cc"></div>
+<script type="text/javascript">
+  var VEGA_DEBUG = (typeof VEGA_DEBUG == "undefined") ? {} : VEGA_DEBUG;
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-a0f9e1a091f4433abb9fe45515ea91cc") {
+      outputDiv = document.getElementById("altair-viz-a0f9e1a091f4433abb9fe45515ea91cc");
+    }
+
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm/vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm/vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm/vega-lite@5.20.1?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm/vega-embed@6?noext",
+    };
+
+    function maybeLoadScript(lib, version) {
+      var key = `${lib.replace("-", "")}_version`;
+      return (VEGA_DEBUG[key] == version) ?
+        Promise.resolve(paths[lib]) :
+        new Promise(function(resolve, reject) {
+          var s = document.createElement('script');
+          document.getElementsByTagName("head")[0].appendChild(s);
+          s.async = true;
+          s.onload = () => {
+            VEGA_DEBUG[key] = version;
+            return resolve(paths[lib]);
+          };
+          s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+          s.src = paths[lib];
+        });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      let deps = ["vega-embed"];
+      require(deps, displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else {
+      maybeLoadScript("vega", "5")
+        .then(() => maybeLoadScript("vega-lite", "5.20.1"))
+        .then(() => maybeLoadScript("vega-embed", "6"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-d2775abdd38d3868a687b1e442e4febb"}, "mark": {"type": "bar"}, "encoding": {"tooltip": [{"field": "word", "type": "nominal"}, {"field": "count", "type": "quantitative"}], "x": {"field": "count", "title": "Frequency", "type": "quantitative"}, "y": {"field": "word", "sort": "-x", "title": "Word", "type": "nominal"}}, "height": 400, "title": "Top 15 Words", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-d2775abdd38d3868a687b1e442e4febb": [{"word": "that", "count": 83}, {"word": "which", "count": 71}, {"word": "with", "count": 40}, {"word": "life", "count": 36}, {"word": "this", "count": 35}, {"word": "psychology", "count": 34}, {"word": "psychical", "count": 29}, {"word": "their", "count": 29}, {"word": "from", "count": 22}, {"word": "they", "count": 21}, {"word": "been", "count": 20}, {"word": "there", "count": 18}, {"word": "have", "count": 17}, {"word": "upon", "count": 17}, {"word": "these", "count": 17}]}}, {"mode": "vega-lite"});
+</script>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
