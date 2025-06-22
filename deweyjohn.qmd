@@ -1,11 +1,7 @@
 ---
-title: "Studies in Logical Theory"
-author: "John Dewey"
-date: "1903"
 format: html
 editor: visual
 ---
-
 # Studies in Logical Theory
 
 By **John Dewey** (1903)

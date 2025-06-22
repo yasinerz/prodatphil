@@ -9,5 +9,5 @@ editor: visual
 Below is a selection of digitized historical texts on classical psychology.
 
 - [Studies in Logical Theory](deweyjohn.qmd)
-
+- [Hereditary Talent and Character](hereditary-talent.qmd)
 
