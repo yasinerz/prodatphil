@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>williamjamesc – prodatphil</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">prodatphil</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./viewer.html"> 
+<span class="menu-text">Viewer</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./dashboard.html"> 
+<span class="menu-text">Dashboard</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./notebooks.html"> 
+<span class="menu-text">Notebooks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./texts.html"> 
+<span class="menu-text">Texts</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#does-consciousness-exist" id="toc-does-consciousness-exist" class="nav-link active" data-scroll-target="#does-consciousness-exist">Does ‘Consciousness’ Exist?</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="does-consciousness-exist" class="level1">
+<h1>Does ‘Consciousness’ Exist?</h1>
+<p>By <strong>William James</strong> (1904)</p>
+<hr>
+<p>‘Thoughts’ and ‘things’ are names for two sorts of object, which common sense will always find contrasted and will always practically oppose to each other. Philosophy, reflecting on the contrast, has varied in the past in her explanations of it, and may be expected to vary in the future. At first, ‘spirit and matter,’ ‘soul and body,’ stood for a pair of equipollent substances quite on a par in weight and interest. But one day Kant undermined the soul and brought in the transcendental ego, and ever since then the bipolar relation has been very much off its balance. The transcendental ego seems nowadays in rationalist quarters to stand for everything, in empiricist quarters for almost nothing. In the hands of such writers as Schuppe, Rehmke, Natorp, Munsterberg – at any rate in his earlier writings, Schubert-Soldern and others, the spiritual principle attenuates itself to a thoroughly ghostly condition, being only a name for the fact that the ‘content’ of experience is known. It loses personal form and activity - these passing over to the content – and becomes a bare <em>Bewusstheit</em> or <em>Bewusstsein überhaupt</em> of which in its own right absolutely nothing can be said.</p>
+<p>I believe that ‘consciousness,’ when once it has evaporated to this estate of pure diaphaneity, is on the point of disappearing altogether. It is the name of a nonentity, and has no right to a place among first principles. Those who still cling to it are clinging to a mere echo, the faint rumor left behind by the disappearing ‘soul’ upon the air of philosophy. During the past year, I have read a number of articles whose authors seemed just on the point of abandoning the notion of consciousness,[1] and substituting for it that of an absolute experience not due to two factors. But they were not quite radical enough, not quite daring enough in their negations. For twenty years past I have mistrusted ‘consciousness’ as an entity; for seven or eight years past I have suggested its non-existence to my students, and tried to give them its pragmatic equivalent in realities of experience. It seems to me that the hour is ripe for it to be openly and universally discarded.</p>
+<p>To deny plumply that ‘consciousness’ exists seems so absurd on the face of it – for undeniably ‘thoughts’ do exist – that I fear some readers will follow me no farther. Let me then immediately explain that I mean only to deny that the word stands for an entity, but to insist most emphatically that it does stand for a function. There is, I mean, no aboriginal stuff or quality of being, contrasted with that of which material objects are made, out of which our thoughts of them are made; but there is a function in experience which thoughts perform, and for the performance of which this quality of being is invoked. That function is knowing. ‘Consciousness’ is supposed necessary to explain the fact that things not only are, but get reported, are known. Whoever blots out the notion of consciousness from his list of first principles must still provide in some way for that function’s being carried on.</p>
+<p>My thesis is that if we start with the supposition that there is only one primal stuff or material in the world, a stuff of which everything is composed, and if we call that stuff ‘pure experience,’ the knowing can easily be explained as a particular sort of relation towards one another into which portions of pure experience may enter. The relation itself is a part of pure experience; one if its ‘terms’ becomes the subject or bearer of the knowledge, the knower,[2] the other becomes the object known. This will need much explanation before it can be understood. The best way to get it understood is to contrast it with the alternative view; and for that we may take the recentest alternative, that in which the evaporation of the definite soul-substance has proceeded as far as it can go without being yet complete. If neo-Kantism has expelled earlier forms of dualism, we shall have expelled all forms if we are able to expel neo-Kantism in its turn.</p>
+<p>For the thinkers I call neo-Kantian, the word consciousness to-day does no more than signalize the fact that experience is indefeasibly dualistic in structure. It means that not subject, not object, but object-plus-subject is the minimum that can actually be. The subject-object distinction meanwhile is entirely different from that between mind and matter, from that between body and soul. Souls were detachable, had separate destinies; things could happen to them. To consciousness as such nothing can happen, for, timeless itself, it is only a witness of happenings in time, in which it plays no part. It is, in a word, but the logical correlative of ‘content’ in an Experience of which the peculiarity is that <em>fact comes to light</em> in it, that <em>awareness of content</em> takes place. Consciousness as such is entirely impersonal – ‘self’ and its activities belong to the content. To say that I am self-conscious, or conscious of putting forth volition, means only that certain contents, for which ‘self’ and ‘effort of will’ are the names, are not without witness as they occur.</p>
+<p>Thus, for these belated drinkers at the Kantian spring, we should have to admit consciousness as an ‘epistemological’ necessity, even if we had no direct evidence of its being there.</p>
+<p>But in addition to this, we are supposed by almost every one to have an immediate consciousness of consciousness itself. When the world of outer fact ceases to be materially present, and we merely recall it in memory, or fancy it, the consciousness is believed to stand out and to be felt as a kind of impalpable inner flowing, which, once known in this sort of experience, may equally be detected in presentations of the outer world. “The moment we try to fix out attention upon consciousness and to see what, distinctly, it is,” says a recent writer, “it seems to vanish. It seems as if we had before us a mere emptiness. When we try to introspect the sensation of blue, all we can see is the blue; the other element is as if it were diaphanous. Yet it can be distinguished, if we look attentively enough, and know that there is something to look for.”[3] “Consciousness” (Bewusstheit), says another philosopher, “is inexplicable and hardly describable, yet all conscious experiences have this in common that what we call their content has a peculiar reference to a centre for which ‘self’ is the name, in virtue of which reference alone the content is subjectively given, or appears…. While in this way consciousness, or reference to a self, is the only thing which distinguishes a conscious content from any sort of being that might be there with no one conscious of it, yet this only ground of the distinction defies all closer explanations. The existence of consciousness, although it is the fundamental fact of psychology, can indeed be laid down as certain, can be brought out by analysis, but can neither be defined nor deduced from anything but itself.”[4]</p>
+<p>‘Can be brought out by analysis,’ this author says. This supposes that the consciousness is one element, moment, factor – call it what you like – of an experience of essentially dualistic inner constitution, from which, if you abstract the content, the consciousness will remain revealed to its own eye. Experience, at this rate, would be much like a paint of which the world pictures were made. Paint has a dual constitution, involving, as it does, a menstruum[5] (oil, size or what not) and a mass of content in the form of pigment suspended therein. We can get the pure menstruum by letting the pigment settle, and the pure pigment by pouring off the size or oil. We operate here by physical subtraction; and the usual view is, that by mental subtraction we can separate the two factors of experience in an analogous way – not isolating them entirely, but distinguishing them enough to know that they are two.</p>
+<p>Now my contention is exactly the reverse of this. <em>Experience, I believe, has no such inner duplicity; and the separation of it into consciousness and content comes, not by way of subtraction, but by way of addition</em> – the addition, to a given concrete piece of it, other sets of experiences, in connection with which severally its use or function may be of two different kinds. The paint will also serve here as an illustration. In a pot in a paint-shop, along with other paints, it serves in its entirety as so much saleable matter. Spread on a canvas, with other paints around it, it represents, on the contrary, a feature in a picture and performs a spiritual function. Just so, I maintain, does a given undivided portion of experience, taken in one context of associates, play the part of a knower, of a state of mind, of ‘consciousness’; while in a different context the same undivided bit of experience plays the part of a thing known, of an objective ‘content.’ In a word, in one group it figures as a thought, in another group as a thing. And, since it can figure in both groups simultaneously we have every right to speak of it as subjective and objective, both at once. The dualism connoted by such double-barrelled terms as ‘experience,’ ‘phenomenon,’ ‘datum,’ ‘<em>Vorfindung</em>’ – terms which, in philosophy at any rate, tend more and more to replace the single-barrelled terms of ‘thought’ and ‘thing’ – that dualism, I say, is still preserved in this account, but reinterpreted, so that, instead of being mysterious and elusive, it becomes verifiable and concrete. It is an affair of relations, it falls outside, not inside, the single experience considered, and can always be particularized and defined.</p>
+<p>The entering wedge for this more concrete way of understanding the dualism was fashioned by Locke when he made the word ‘idea’ stand indifferently for thing and thought, and by Berkeley when he said that what common sense means by realities is exactly what the philosopher means by ideas. Neither Locke nor Berkeley thought his truth out into perfect clearness, but it seems to me that the conception I am defending does little more than consistently carry out the ‘pragmatic’ method which they were the first to use.</p>
+<p>If the reader will take his own experiences, he will see what I mean. Let him begin with a perceptual experience, the ‘presentation,’ so called, of a physical object, his actual field of vision, the room he sits in, with the book he is reading as its centre; and let him for the present treat this complex object in the commonsense way as being ‘really’ what it seems to be, namely, a collection of physical things cut out from an environing world of other physical things with which these physical things have actual or potential relations. Now at the same time it is just those <em>self-same things</em> which his mind, as we say, perceives; and the whole philosophy of perception from Democritus’s time downwards has just been one long wrangle over the paradox that what is evidently one reality should be in two places at once, both in outer space and in a person’s mind. ‘Representative’ theories of perception avoid the logical paradox, but on the other hand they violate the reader’s sense of life, which knows no intervening mental image but seems to see the room and the book immediately just as they physically exist.</p>
+<p>The puzzle of how the one identical room can be in two places is at bottom just the puzzle of how one identical point can be on two lines. It can, if it be situated at their intersection; and similarly, if the ‘pure experience’ of the room were a place of intersection of two processes, which connected it with different groups of associates respectively, it could be counted twice over, as belonging to either group, and spoken of loosely as existing in two places, although it would remain all the time a numerically single thing.</p>
+<p>Well, the experience is a member of diverse processes that can be followed away from it along entirely different lines. The one self-identical thing has so many relations to the rest of experience that you can take it in disparate systems of association, and treat it as belonging with opposite contexts. In one of these contexts it is your ‘field of consciousness’; in another it is ‘the room in which you sit,’ and it enters both contexts in its wholeness, giving no pretext for being said to attach itself to consciousness by one of its parts or aspects, and to out reality by another. What are the two processes, now, into which the room-experience simultaneously enters in this way?</p>
+<p>One of them is the reader’s personal biography, the other is the history of the house of which the room is part. The presentation, the experience, the <em>that</em> in short (for until we have decided <em>what</em> it is it must be a mere <em>that</em>) is the last term in a train of sensations, emotions, decisions, movements, classifications, expectations, etc., ending in the present, and the first term in a series of ‘inner’ operations extending into the future, on the reader’s part. On the other hand, the very same <em>that</em> is the <em>terminus ad quem</em> of a lot of previous physical operations, carpentering, papering, furnishing, warming, etc., and the <em>terminus a quo</em> of a lot of future ones, in which it will be concerned when undergoing the destiny of a physical room. The physical and the mental operations form curiously incompatible groups. As a room, the experience has occupied that spot and had that environment for thirty years. As your field of consciousness it may never have existed until now. As a room, attention will go on to discover endless new details in it. As your mental state merely, few new ones will emerge under attention’s eye. As a room, it will take an earthquake, or a gang of men, and in any case a certain amount of time, to destroy it. As your subjective state, the closing of your eyes, or any instantaneous play of your fancy will suffice. In the real world, fire will consume it. In your mind, you can let fire play over it without effect. As an outer object, you must pay so much a month to inhabit it. As an inner content, you may occupy it for any length of time rent-free. If, in short, you follow it in the mental direction, taking it along with events of personal biography solely, all sorts of things are true of it which are false, and false of it which are true if you treat it as a real thing experienced, follow it in the physical direction, and relate it to associates in the outer world.</p>
+<p>So far, all seems plain sailing, but my thesis will probably grow less plausible to the reader when I pass from percepts to concepts, or from the case of things presented to that of things remote. I believe, nevertheless, that here also the same law holds good. If we take conceptual manifolds, or memories, or fancies, they also are in their first intention mere bits of pure experience, and, as such, are single <em>thats</em> which act in one context as objects, and in another context figure as mental states. By taking them in their first intention, I mean ignoring their relation to possible perceptual experiences with which they may be connected, which they may lead to and terminate in, and which then they may be supposed to ‘represent.’ Taking them in this way first, we confine the problem to a world merely ‘thought of’ and not directly felt or seen. This world, just like the world of percepts, comes to us at first as a chaos of experiences, but lines of order soon get traced. We find that any bit of it which we may cut out as an example is connected with distinct groups of associates, just as our perceptual experiences are, that these associates link themselves with it by different relations,[6] and that one forms the inner history of a person, while the other acts as an impersonal ‘objective’ world, either spatial and temporal, or else merely logical or mathematical, or otherwise ‘ideal.’</p>
+<p>The first obstacle on the part of the reader to seeing that these non-perceptual experiences have objectivity as well as subjectivity will probably be due to the intrusion into his mind of <em>percepts</em>, that third group of associates with which the non-perceptual experiences have relations, and which, as a whole, they ‘represent,’ standing to them as thoughts to things. This important function of non-perceptual experiences complicates the question and confuses it; for, so used are we to treat percepts as the sole genuine realities that, unless we keep them out of the discussion, we tend altogether to overlook the objectivity that lies in non-perceptual experiences by themselves. We treat them, ‘knowing’ percepts as they do, as through and through subjective, and say that they are wholly constituted of the stuff called consciousness, using this term now for a kind of entity, after the fashion which I am seeking to refute.[7]</p>
+<p>Abstracting, then, from percepts altogether, what I maintain is, that any single non-perceptual experience tends to get counted twice over, just as a perceptual experience does, figuring in one context as an object or field of objects, in another as a state of mind: and all this without the least internal self-diremption on its own part into consciousness and content. It is all consciousness in one taking; and, in the other, all content.</p>
+<p>I find this objectivity of non-perceptual experiences, this complete parallelism in point of reality between the presently felt and the remotely thought, so well set forth in a page of Münsterberg’s <em>Grundzuge</em>, that I will quote it as it stands.</p>
+<p>“I may only think of my objects,” says Professor Munsterberg; “yet, in my living thought they stand before me exactly as perceived objects would do, no matter how different the two ways of apprehending them may be in their genesis. The book here lying on the table before me, and the book in the next room of which I think and which I mean to get, are both in the same sense given realities for me, realities which I acknowledge and of which I take account. If you agree that the perceptual object is not an idea within me, but that percept and thing, as indistinguishably one, are really experienced <em>there</em>, <em>outside</em>, you ought not to believe that the merely thought-of object is hid away inside of the thinking subject. The object of which I think, and of whose existence I take cognizance without letting it now work upon my senses, occupies its definite place in the outer world as much as does the object which I directly see.”</p>
+<p>“What is true of the here and the there, is also true of the now and the then. I know of the thing which is present and perceived, but I know also of the thing which yesterday was but is no more, and which I only remember. Both can determine my present conduct, both are parts of the reality of which I keep account. It is true that of much of the past I am uncertain, just as I am uncertain of much of what is present if it be but dimly perceived. But the interval of time does not in principle alter my relation to the object, does not transform it from an object known into a mental state…. The things in the room here which I survey, and those in my distant home of which I think, the things of this minute and those of my long vanished boyhood, influence and decide me alike, with a reality which my experience of them directly feels. They both make up my real world, they make it directly, they do not have first to be introduced to me and mediated by ideas which now and here arise within me…. This not-me character of my recollections and expectations does not imply that the external objects of which I am aware in those experiences should necessarily be there also for others. The objects of dreamers and hallucinated persons are wholly without general validity. But even were they centaurs and golden mountains, they still would be ‘off there,’ in fairy land, and not ‘inside’ of ourselves.”[8]</p>
+<p>This certainly is the immediate, primary, naïf, or practical way of taking our thought-of world. Were there no perceptual world to serve as its ‘reductive,’ in Taine’s sense, by being ‘stronger’ and more genuinely ‘outer’ (so that the whole merely thought-of world seems weak and inner in comparison), our world of thought would be the only world, and would enjoy complete reality in our belief. This actually happens in our dreams, and in our day-dreams so long as percepts do not interrupt them.</p>
+<p>And yet, just as the seen room (to go back to our late example) is <em>also</em> a field of consciousness, so the conceived or recollected room is <em>also</em> a state of mind; and the doubling-up of the experience has in both cases similar grounds.</p>
+<p>The room thought-of, namely, has many thought-of couplings with many thought-of things. Some of these couplings are inconstant, others are stable. In the reader’s personal history the room occupies a single date – he saw it only once perhaps, a year ago. Of the house’s history, on the other hand, it forms a permanent ingredient. Some couplings have the curious stubbornness, to borrow Royce’s term, of fact; others show the fluidity of fancy – we let them come and go as we please. Grouped with the rest of its house, with the name of its town, of its owner, builder, value, decorative plan, the room maintains a definite foothold, to which, if we try to loosen it, it tends to return and to reassert itself with force.[9] With these associates, in a word, it coheres, while to other houses, other towns, other owners, etc., it shows no tendency to cohere at all. The two collections, first of its cohesive, and, second, of its loose associates, inevitably come to be contrasted. We call the first collection the system of external realities, in the midst of which the room, as ‘real,’ exists; the other we call the stream of internal thinking, in which, as a ‘mental image,’ it for a moment floats.[10] The room thus again gets counted twice over. It plays two different rôles, being <em>Gedanke</em> and <em>Gedachtes</em>, the thought-of-an-object, and the object-thought-of, both in one; and all this without paradox or mystery, just as the same material thing may be both low and high, or small and great, or bad and good, because of its relations to opposite parts of an environing world.</p>
+<p>As ‘subjective’ we say that the experience represents; as ‘objective’ it is represented. What represents and what is represented is here numerically the same; but we must remember that no dualism of being represented and representing resides in the experience <em>per se</em>. In its pure state, or when isolated, there is no self-splitting of it into consciousness and what the consciousness is ‘of.’ Its subjectivity and objectivity are functional attributes solely, , realized only when the experience is ‘take,’ <em>i.e.</em>, talked-of, twice, considered along with its two differing contexts respectively, by a new retrospective experience, of which that whole past complication now forms the fresh content. The instant field of the present is at all times what I call the ‘pure’ experience. It is only virtually or potentially either object or subject as yet. For the time being, it is plain, unqualified actuality, or existence, a simple <em>that</em>. In this <em>naïf</em> immediacy it is of course <em>valid</em>; it is <em>there</em>, we <em>act</em> upon it; and the doubling of it in retrospection into a state of mind and a reality intended thereby, is just one of the acts. The ‘state of mind,’ first treated explicitly as such in retrospection, will stand corrected or confirmed, and the retrospective experience in its turn will get a similar treatment; but the immediate experience in its passing is [11]‘truth,’ practical truth, <em>something to act on</em>, at its own movement. If the world were then and there to go out like a candle, it would remain truth absolute and objective, for it would be ‘the last word,’ would have no critic, and no one would ever oppose the thought in it to the reality intended.[12] I think I may now claim to have made my thesis clear. Consciousness connotes a kind of external relation, and does not denote a special stuff or way of being. <em>The peculiarity of our experiences, that they not only are, but are known, which their ‘conscious’ quality is invoked to explain, is better explained by their relations – these relations themselves being experiences – to oneanother</em>.</p>
+<p>Were I now to go on to treat of the knowing of perceptual by conceptual experiences, it would again prove to be an affair of external relations. One experience would be the knower, the other the reality known; and I could perfectly well define, without the notion of ‘consciousness,’ what the knowing actually and practically amounts to – leading-towards, namely, and terminating-in percepts, through a series of transitional experiences which the world supplies. But I will not treat of this, space being insufficient.[13] I will rather consider a few objections that are sure to be urged against the entire theory as it stands.</p>
+<p>First of all, this will be asked: “If experience has not ‘conscious’ existence, if it be not partly made of ‘consciousness,’ of what then is it made? Matter we know, and thought we know, and conscious content we know, but neutral and simple ‘pure experience’ is something we know not at all. Say <em>what</em> it consists of – for it must consist of something – or be willing to give it up!”</p>
+<p>To this challenge the reply is easy. Although for fluency’s sake I myself spoke early in this article of a stuff of pure experience, I have now to say that there is no <em>general</em> stuff of which experience at large is made. There are as many stuffs as there are ‘natures’ in the things experienced. If you ask what any one bit of pure experience is made of, the answer is always the same: “It is made of <em>that</em>, of just what appears, of space, of intensity, of flatness, brownness, heaviness, or what not.” Shadworth Hodgson’s analysis here leaves nothing to be desired.(1) Experience is only a collective name for all these sensible natures, and save for time and space (and, if you like, for ‘being’) there appears no universal element of which all things are made.</p>
+<p>The next objection is more formidable, in fact it sounds quite crushing when one hears it first.</p>
+<p>“If it be the self-same piece of pure experience, taken twice over, that serves now as thought and now as thing” – so the objection runs - “how comes it that its attributes should differ so fundamentally in the two takings. As thing, the experience is extended; as thought, it occupies no space or place. As thing, it is red, hard, heavy; but who ever heard of a red, hard or heavy thought? Yet even now you said that an experience is made of just what appears, and what appears is just such adjectives. How can the one experience in its thing-function be made of them, consist of them, carry them as its own attributes, while in its thought-function it disowns them and attributes them elsewhere. There is a self-contradiction here from which the radical dualism of thought and thing is the only truth that can save us. Only if the thought is one kind of being can the adjectives exist in it ‘intentionally’ (to use the scholastic term); only if the thing is another kind, can they exist in it constitutively and energetically. No simple subject can take the same adjectives and at one time be qualified by it, and at another time be merely ‘of’ it, as of something only meant or known.”</p>
+<p>The solution insisted on by this objector, like many other common-sense solutions, grows the less satisfactory the more one turns it in one’s mind. To begin with, <em>are</em> thought and thing as heterogeneous as is commonly said?</p>
+<p>No one denies that they have some categories in common. Their relations to time are identical. Both, moreover, may have parts (for psychologists in general treat thoughts as having them); and both may be complex or simple. Both are of kinds, can be compared, added and subtracted and arranged in serial orders. All sorts of adjectives qualify our thoughts which appear incompatible with consciousness, being as such a bare diaphaneity. For instance, they are natural and easy, or laborious. They are beautiful, happy, intense, interesting, wise, idiotic, focal, marginal, insipid, confused, vague, precise, rational, causal, general, particular, and many things besides. Moreover, the chapters on ‘Perception’ in the psychology books are full of facts that make for the essential homogeneity of thought with thing. How, if ‘subject’ and ‘object’ were separated ‘by the whole diameter of being,’ and had no attributes and common, could it be so hard to tell, in a presented and recognized material object, what part comes in through the sense organs and what part comes ‘out of one’s own head’? Sensations and apperceptive ideas fuse here so intimately that you can no more tell where one begins and the other ends, than you can tell, in those cunning circular panoramas that have lately been exhibited, where the real foreground and the painted canvas [14].</p>
+<p>Descartes for the first time defined thought as the absolutely unextended, and later philosophers have accepted the description as correct. But what possible meaning has it to say that, when we think of a foot-rule or a square yard, extension is not attributable to our thought? Of every extended object the <em>adequate</em> mental picture must have all the extension of the object itself. The difference between objective and subjective extension is one of relation to a context solely. In the mind the various extents maintain no necessarily stubborn order relatively to each other, while in the physical world they bound each other stably, and, added together, make the great enveloping Unit which we believe in and call real Space. As ‘outer,’ they carry themselves adversely, so to speak, to one another, exclude one another and maintain their distances; while, as ‘inner,’ their order is loose, and they form a <em>durcheinander</em> in which unity is lost.(1) But to argue from this that inner experience is absolutely inextensive seems to me little short of absurd. The two worlds differ, not by the presence or absence of extension, but by the relations of the extensions which in both worlds exist.</p>
+<p>Does not this case of extension now put us on the track of truth in the case of other qualities? It does; and I am surprised that the facts should not have been noticed long ago. Why, for example, do we call a fire hot, and water wet, and yet refuse to say that our mental state, when it is ‘of’ these objects, is either wet or hot? ‘Intentionally,’ at any rate, and when the mental state is a vivid image, hotness and wetness are in it just as much as they are in the physical experience. The reason is this, that, as the general chaos of all our experiences gets sifted, we find that there are some fires that will always burn sticks and always warm our bodies, and that there are some waters that will always put out fires; while there are other fires and waters that will not act at all. The general group of experiences that act, that do not only possess their natures intrinsically, but wear them adjectively and energetically, turning them against one another, comes inevitably to be contrasted with the group whose members, having identically the same natures, fail to manifest them in the ‘energetic’ way. I make for myself now an experience of blazing fire; I place it near my body; but it does not warm me in the least. I lay a stick upon it, and the stick either burns or remains green, as I please. I call up water, and pour it on the fire, and absolutely no difference ensues. I account for all such facts by calling this whole train of experiences unreal, a mental train. Mental fire is what won’t burn real sticks; mental water is what won’t necessarily (though of course it may) put out even a mental fire. Mental knives may be sharp, but they won’t cut real wood. Mental triangles are pointed, but their points won’t wound. With ‘real’ objects, on the contrary, consequences always accrue; and thus the real experiences get sifted from the mental ones, the things from out thoughts of them, fanciful or true, and precipitated together as the stable part of the whole experience-chaos, under the name of the physical world. Of this our perceptual experiences are the nucleus, they being the originally <em>strong</em> experiences. We add a lot of conceptual experiences to them, making these strong also in imagination, and building out the remoter parts of the physical world by their means; and around this core of reality the world of laxly connected fancies and mere rhapsodical objects floats like a bank of clouds. In the clouds, all sorts of rules are violated which in the core are kept. Extensions there can be indefinitely located; motion there obeys no Newton’s laws.</p>
+<p>There is a peculiar class of experience to which, whether we take them as subjective or as objective, we <em>assign</em> their several natures as attributes, because in both contexts they affect their associates actively, though in neither quite as ‘strongly’ or as sharply as things affect one another by their physical energies. I refer here to <em>appreciations</em>, which form an ambiguous sphere of being, belonging with emotion on the one hand, and having objective ‘value’ on the other, yet seeming not quite inner nor quite outer, as if a diremption had begun but had not made itself complete.</p>
+<p>Experiences of painful objects, for example, are usually also painful experiences; perceptions of loveliness, of ugliness, tend to pass muster as lovely or as ugly perceptions; intuitions of the morally lofty are lofty intuitions. Sometimes the adjective wanders as if uncertain where to fix itself. Shall we speak of seductive visions or of visions of seductive things? Of healthy thoughts or of thoughts of healthy objects? Of good impulses, or of impulses towards the good? Of feelings of anger, or of angry feelings? Both in the mind and in the thing, these natures modify their context, exclude certain associates and determine others, have their mates and incompatibles. Yet not as stubbornly as in the case of physical qualities, for beauty and ugliness, love and hatred, pleasant and painful can, in certain complex experiences, coexist.</p>
+<p>If one were to make an evolutionary construction of how a lot of originally chaotic pure experience became gradually differentiated into an orderly inner and outer world, the whole theory would turn upon one’s success in explaining how or why the quality of an experience, once active, could become less so, and, from being an energetic attribute in some cases, elsewhere lapse into the status of an inert or merely internal ‘nature.’ This would be the ‘evolution’ of the psychical from the bosom of the physical, in which the esthetic, moral and otherwise emotional experiences would represent a halfway stage.</p>
+<p>But a last cry of <em>non possumus</em> will probably go up from many readers. “All very pretty as a piece of ingenuity,” they will say, “but our consciousness itself intuitively contradicts you. We, for our part, <em>know</em> that we are conscious. We <em>feel</em> our thought, flowing as a life within us, in absolute contrast with the objects which it so unremittingly escorts. We can not be faithless to this immediate intuition. The dualism is a fundamental <em>datum</em>: Let no man join what God has put asunder.”</p>
+<p>My reply to this is my last word, and I greatly grieve that to many it will sound materialistic. I can not help that, however, for I, too, have my intuitions and I must obey them. Let the case be what it may in others, I am as confident as I am of anything that, in myself, the stream of thinking (which I recognize emphatically as a phenomenon) is only a careless name for what, when scrutinized, reveals itself to consist chiefly of the stream of my breathing. The ‘I think’ which Kant said must be able to accompany all my objects, is the ‘I breath’ which actually does accompany them. There are other internal facts besides breathing (intracephalic muscular adjustments, etc., of which I have said a word in my larger Psychology), and these increase the assets of ‘consciousness,’ so far as the latter is subject to immediate perception; but breath, which was ever the original of ‘spirit,’ breath moving outwards, between the glottis and the nostrils, is, I am persuaded, the essence out of which philosophers have constructed the entity known to them as consciousness. <em>That entity is fictitious, while thoughts in the concrete are fully real. But thoughts in the concrete are made of the same stuff as things are</em>.</p>
+<p>I wish I might believe myself to have made that plausible in this article. IN another article I shall try to make the general notion of a world composed of pure experiences still more clear.</p>
+<ol type="1">
+<li><p>Articles by Bawden, King, Alexander, and others. Dr.&nbsp;Perry is frankly over the border</p></li>
+<li><p>In my Psychology I have tried to show that we need no knower other than the “passing thought.” [<em>Principles of Psychology</em>, vol.&nbsp;I, pp.&nbsp;338 ff.]</p></li>
+<li><p>G.E. Moore: <em>Mind</em>, vol.&nbsp;XII, N.S., [1903], p.450</p></li>
+<li><p>Paul Natorp: <em>EinleitungindiePsychologie</em>, 1888, pp.&nbsp;14, 112.</p></li>
+<li><p>“Figuratively speaking, consciousness may be said to be the one universal solvent, or menstruum, in which the different concrete kinds of psychic acts and facts are contained, whether in concealed or in obvious form.” G.T.Ladd: <em>Psychology, Descriptiveand Explanatory</em>, 1894, p.30.</p></li>
+<li><p>Here as elsewhere the relations are of course experienced relations, members of the same originally chaotic manifold of nonperceptual experience of which the related terms themselves are parts.</p></li>
+<li><p>Of the representative functions of non-perceptual experience as a whole, I will say a word in a subsequent article; it leads too far into the general theory of knowledge for much to be said about it in a short paper like this.</p></li>
+<li><p>Munsterberg: <em>Grundzugeder Psychologie</em>, vol.&nbsp;I, p.&nbsp;48.</p></li>
+<li><p>Cf. A.L. Hodder: <em>The Adversaries of the Sceptic</em>, pp.94-99.</p></li>
+<li><p>For simplicity’s sake I confine my exposition to “external” reality. But there is also the system of ideal reality in which the room plays its part. Relations of comparison, of classification, serial order, value, also are stubborn, assign a definite place to the room, unlike the incoherence of its places in the mere rhapsody of our successive thoughts.</p></li>
+<li><p>Note the ambiguity of this term, which is taken sometimes objectively and sometimes subjectively.</p></li>
+<li><p>In the <em>Psychological Review</em> for July [1904], Dr.&nbsp;R.B. Perry has published a view of Consciousness which comes nearer to mine than any other with which I am acquainted. At present, Dr.&nbsp;Perry thinks, every field of experience is so much “fact.” It becomes “opinion” or ’thought” only in retrospection, when a fresh experience, thinking the same object, alters and corrects it. But the corrective experience becomes itself in turn corrected, and thus the experience as a whole is a process in which what is objective originally forever turns subjective, turns into our apprehension of the object. I strongly recommend Dr.&nbsp;Perry’s admirable article to my readers.</p></li>
+<li><p>I have given a partial account of the matter in <em>Mind</em>, vol.&nbsp;X, p.&nbsp;27, 1885, and in the <em>Psychological Review</em>, vol.&nbsp;II, p.&nbsp;105, 1895. See also C.A. Strong’s article in the <em>Journal of Philosophy, Psychology and Scientific Methods</em>, vol I, p.&nbsp;253, May 12, 1904. I hope myself very soon to recur to the matter.</p></li>
+<li><p>Spencer’s proof of his ‘Transfigured Realism’ (his doctrine that there is an absolutely non-mental reality) comes to mind as a splendid instance of the impossibility of establishing radical heterogeneity between thought and thing. All his painfully accumulated points of difference run gradually into their opposites, and are full of exceptions.</p></li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

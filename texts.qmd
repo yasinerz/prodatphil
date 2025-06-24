@@ -6,9 +6,8 @@ editor: visual
 
 # Classical Psychology Texts
 
-
-- [Studies in Logical Theory](deweyjohn.qmd)
-- [Hereditary Talent and Character](hereditarytalent.qmd)
-- [(Review of) The Origin of Species by Means of Natural Selection](asagray.qmd)
-
-
+-   [Studies in Logical Theory](deweyjohn.qmd)
+-   [Hereditary Talent and Character](hereditarytalent.qmd)
+-   [(Review of) The Origin of Species by Means of Natural Selection](asagray.qmd)
+-   [Does 'Consciousness' Exist?](williamjames.qmd)
+-   [Scientific Dabblers](fwclarke.qmd)
