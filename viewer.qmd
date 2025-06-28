@@ -38,7 +38,7 @@ editor: visual
 
 **Author**: William James\
 **Year**: 1904\
-**Genre**: Philosophy/Psychology\
+**Genre**: Philosophy,Psychology\
 [📄 Read Full Text →](williamjamesc.qmd)
 :::
 

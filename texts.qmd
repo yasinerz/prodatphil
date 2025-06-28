@@ -9,5 +9,5 @@ editor: visual
 -   [Studies in Logical Theory](deweyjohn.qmd)
 -   [Hereditary Talent and Character](hereditarytalent.qmd)
 -   [(Review of) The Origin of Species by Means of Natural Selection](asagray.qmd)
--   [Does 'Consciousness' Exist?](williamjames.qmd)
+-   [Does 'Consciousness' Exist?](williamjamesc.qmd)
 -   [Scientific Dabblers](fwclarke.qmd)

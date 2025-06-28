@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>fwclarke – Prodatphil</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Prodatphil</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./viewer.html"> 
+<span class="menu-text">Viewer</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./dashboard.html"> 
+<span class="menu-text">Dashboard</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./notebooks.html"> 
+<span class="menu-text">Notebooks</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./texts.html"> 
+<span class="menu-text">Texts</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#scientific-dabblers" id="toc-scientific-dabblers" class="nav-link active" data-scroll-target="#scientific-dabblers">Scientific Dabblers</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="scientific-dabblers" class="level1">
+<h1>Scientific Dabblers</h1>
+<p>By <strong>F. W. Clarke</strong> (1872)</p>
+<hr>
+<p>THERE is, perhaps, no more amusing trait in human nature than that which leads people to criticise subjects about which they know nothing. And it seems to be a trait common to all minds, but differing much in intensity. Education roots it out to a considerable extent, but never quite obliterates it. The more ignorant the critic, the more confident are his assertions.</p>
+<p>Four departments of knowledge are especially infested by these critical parasites, namely: physical science, metaphysics, politics, and theology. Persons wholly ignorant of political economy discuss taxation, capital, the rights of property, and similar questions, in the most solemn and owl-like manner; others, who know so little of natural history as to be almost unable to tell a grasshopper from a gorilla, will point out Darwin’s errors most lucidly; and men who have the vaguest ideas as to the meanings of the polysyllables which they habitually use, expound, with wonderful clearness, the nature of infinity, and in. vent new theories of the universe for every day in the week.</p>
+<p>At the present time, natural science is a favorite field for the gambols of these wiseacres. And, strange as it would seem, at first sight, their energies are usually directed to the highest and most difficult subjects. The sciolist rarely wastes his thoughts upon simple matters. And plainly, since he is ignorant of that which he expounds, it is better for him to leave common things to common minds, and, by discussing the loftier questions of the day, get greater credit for wisdom from those who are equally ignorant with himself. He is safer from overthrow in speculating upon unsettled theories than in attempting to explain that which has been well demonstrated.</p>
+<p>Probably the majority of Americans get their ideas upon scientific questions from the newspaper and the pulpit. The meagre quantities of scientific lore picked up in the common schools, and in most of the colleges, are scarcely important enough to be worth noticing; and the knowledge doled out in the form of popular lectures is so often beaten up into froth, to suit the tastes of those who listen merely to kill time, that it may also be left out of question. But, week after week, the clergy hurl forth their anathemas against the profanities of science, and, day after day, the newspapers quote the sayings of the popular reviews. And but too frequently clergymen and journalists are both mere scientific dabblers. Not always, but woefully often. Quite naturally, then, much of the information given is practically worthless. The really important discoveries are rarely noticed until they are years old, for these retailers of scientific gossip scarcely ever know what is of value, and generally content themselves with giving remarkable theories, broached by intellectual quacks, or brilliant illustrations of principles, with the principles themselves left out. The surface is given, but the meanings lying beneath are neglected.</p>
+<p>Now and then, however, a startling theory is put forward by some eminent scientist, or, after lying comparatively unnoticed for years, is lifted into sudden prominence. And, presto! down sweep the clergy upon it as opposed to religion; and the newspapers, roused by the noise, add their dubious ridicule to the forces of the Church. Only the press is generally less conservative than the pulpit. Its attacks are not nearly so virulent as those of the theologian.</p>
+<p>And unquestionably these assaults do some good. They advertise the theory, set people to thinking, and, in some measure, stimulate the advance of the truth. Had it not been for Romish persecution, Galileo’s views might have been much slower in gaining ground; and it is likely that, if the English pulpit had made less vigorous attack upon young Geology, there might still have been educated men believing in the literal six days’ creation and the universal deluge. And yet it is worth noticing, in this connection, that a book has been published in England, within the past two years, which is meant to show that the earth is not a globe, and that the sun revolves around it. The author’s chief arguments are that “water is level,” and that his views are scriptural. He calls Newton a “lunatic” (these are the words of his prospectus)., and the Astronomical Society a set of “professional liars.” Equally ridiculous statements upon scientific matters may be heard from popular lecturers and writers nearly every day.</p>
+<p>As I have already stated, the scientific dabbler prefers to disport himself in the field of theory. And, at present, there are several great questions up for discussion before the scientific world. The most prominent among them relate to the connection between vital and physical forces, the origin of life, the development of species, and the antiquity of man. In genera], the pulpit has in the most Christian manner <em>allied itself with the weaker side</em>. In many instances, the press follows the lead of the priesthood. And on each question there seems to be popular misunderstanding.</p>
+<p>The first of these questions is practically settled. Experiment has thrown much light upon it, and now the leaders in science are pretty well agreed that the ordinary forces of Nature are sufficient to produce all the physical phenomena of life. And yet, when a well-known chemist, a year or two ago, stated, before a New York audience, the simple fact that the animal heat is the result of purely physical actions in the system, an astute letter-writer took him roundly to task for his “absurdities,” and actually found a newspaper to print the effusion. The lecturer stated an experimental fact, while the objector merely vented ignorant prejudice. If a man who had never learned to read should attempt to instruct an experienced printer in the art of setting type, he would hardly present a more ridiculous spectacle than this self-appointed critic.</p>
+<p>In discussing the origin of life, we find the theory of spontaneous generation brought prominently forward. Certain experimenters have enclosed various substances in hermetically-sealed tubes, heated them, so as to apparently destroy all possibilities of life within, and, after allowing them to remain undisturbed for months, have found the contents swarming with animalcules. Other scientists have tried similar experiments under varied circumstances, and have failed to obtain living organisms. And no one but a man trained in scientific methods can judge of the relative values of the experiments. Yet many clergymen do not hesitate to decide at once in favor of the negative experiments, in spite of the fact that no thorough scientist regards the questions involved as in any degree settled. The leading opponents of spontaneous generation seem to oppose the doctrine only provisionally, on the ground that the evidence accumulated is not sufficient to warrant a final decision. The weight of evidence, however, seems to lend probability to the doctrine. The successes of Wyman, Bastian, and others, more than counterbalance all failures. Yet more exact experiments are needed. It is plain that the first life must have been developed from non-living matter, whatever methods the Creator may have employed. Why may not the same methods be acting to-day? The clerical opponents of the theory here fall into an obvious error. They impute to it tendencies which it cannot have. The question to-day is, not whether life arose by a Divine act, but, in what manner did it arise? If it should be proved that living beings may be produced by natural laws from non-living matter, it will merely be shown that they arose in accordance with the universal design. That is, looking from the standpoint of a belief in Deity, it would be demonstrated that here, as throughout all the domain of Nature, His work was done systematically, through the medium of law, and not in an arbitrary, mechanical, dust-moulding manner. And no one can find any thing atheistic, or even materialistic, in such a view. The question is one of visible order versus seeming disorder, the probabilities being in favor of the former.</p>
+<p>Not long since, Darwin’s “Descent of Man” was published. And shortly afterward, I stumbled upon a newspaper review, which was made up of unreasoning ridicule. The writer was evidently no specialist in science, and yet he ventured to discuss a theory propounded by one of the most thorough naturalists living, who is supported in his views by probably a large majority of scientific men. And the most astonishing portion of this astonishing review was, where the writer asserted that the book did not contain a single argument which would convince any one but a scientific man! As if any one but a scientific man was able to judge fully of the merits of the arguments.</p>
+<p>Now, space forbids my entering into discussion of the development-theory (which, by-the-way, did not originate with Darwin, his being merely one of several development-theories), and yet a word or two is necessary. The naturalist, looking about him, sees many facts which require to be classified and explained. He sees that all mammals resemble each other anatomically; he finds evidences of development from lower to higher stages in their embryos; he is confronted by the fact that species are modified by cultivation; and he meets with hosts of observations chiming in with these. The development-theory is naturally suggested to his mind. Flinging prejudices to one side, he finds that the theory classifies many of these facts, and renders them mutually intelligible. To be sure, the doctrine is not absolutely proved, but then there are all these things in its favor, and little more than negative evidence against it. He has learned to beware of negative evidence, however, as often leading to fallacies; and, looking at all the difficulties in the way, accepts the theory, provisionally at least, as superior to any other which has been suggested. It may not be true, or it may; at all events it classifies his knowledge for him, and is useful for the time being. And he finds that, instead of giving him degraded views of man, it enables him to see both God and humanity in clearer light. The progress indicated in the past hints at greater progress in the future, and encourages him to stronger and better efforts. Development is shown to be a part of man’s duty, and the hope of success is strengthened.</p>
+<p>The question of the actual antiquity of man will probably never be settled. If man, as the development-theory holds, arose by the slow modification of lower species, then it is plain that no precise moment can be pointed out in which he ceased to he brute and became human. But in some senses the question of antiquity may be answered. It may be proved that man, as we now recognize him, has existed on earth more than a certain number of years. That period may be of six, ten, twenty, or a hundred thousand years; how <em>much</em> more we may never know. And the quarrels upon the subject to-day are over the accuracy of the Mosaic estimate of 6,000 years. The question has been discussed on both sides by clerical dabblers. On the one hand, I have heard an eminent “evangelical” divine assert most dogmatically that there was absolutely no evidence to overthrow the Mosaic chronology, and that all belief to the contrary was “utter delusion.” On the other side, I have listened to a prominent “liberal” preacher who claimed that it was almost certain that man had dwelt on the earth for at least 4,000 centuries! And probably neither of those estimable men had a very clear conception of the subject they discussed so airily. Not only does space forbid my entering at length into this subject, but, if I should do so, I should lay myself open to the charge of being a scientific dabbler. Suffice it to say that the best scientific authorities appear to be well agreed that man has existed for much more than 6,000 years. Human bones have been found under circumstances which make it highly probable that they were buried at least 20,000 years ago. There was not, perhaps, absolute proof, but probability. And this probability, supported as it is by some evidence, is far more worthy of belief than the mere unfortified assertions of the Old Testament. Whatever value the latter work may have in its relations to morality and religion, it is an unsafe guide in matters of science. Geology and astronomy have both contended with it, and have come off victorious. Perhaps its errors may exist only in the interpretations of theologians; if so, the interpreters may be deceived even now.</p>
+<p>I do not wish to be understood as attacking the clergy. I wish only to show that science will not bear to be used for partisan purposes. The truth must not be tampered with. And clergymen, in dealing with science, are often mere special pleaders, who wilfully ignore much evidence. There are some preachers who are controversially inclined, and batter away at science whenever it crosses their path. And they often stultify themselves. For instance, they attack the Darwinian theory, and reject it because it is not proved. But they accept the theory of individual creations, which is equally unproved. It would be wiser for them to hold judgment in suspense, and wait for the decisions of competent investigators. But here some reverend gentleman may say indignantly: “What! shall we not defend our faith against the attacks of science?” Certainly, my dear sir; only do not be careless. First make sure that your faith is attacked; then, that you understand the nature of the attack, and then give your opponent credit for honesty equal with your own. Do not hesitate to look squarely at all the evidence bearing upon the questions involved; defend yourself with arguments, not dogmatic assertions; and do not ask your adversaries for proofs stronger than those which you are ready to give. Above all, remember that you yourself are but mortal, and liable to err; and therefore that it is always within the bounds of possibility that your antagonist may be in the right, and you in the wrong. The man of science studies God’s own handiwork; he approaches the truth reverently, yet fearlessly, seeking it for its own sake; and his conclusions cannot be lightly disregarded. Science may throw more light upon theology than theology can ever throw upon science. And the theologian who sincerely wishes to know and to spread the highest and clearest truths, will do well to take at least some lessons from the interpreters of Nature, and in all cases to treat the doctrines of science with the respect which is always due to honesty. Under all circumstances, whatever may be his private views and his desires, he will find it the part of wisdom not to commit himself publicly to either side of an unsettled question. Dogmatism on undecided points is worse than foolish.</p>
+<p>Every now and then we meet with certain scientific dabblers who are silly through the medium of the newspapers. I refer to those unfortunate people who try to illustrate science with fanciful statistics. Of late, one of these statistical paragraphs has been going the rounds of the press. It treats of what the writer supposed to be physiological chemistry. First come some estimates as to the number of pairs of boots and the quantity of hats which might be made from the leather and felt imagined by the author to be formed by some obscure chemical process in the stomach. This is utilitarian science with a vengeance, but is eclipsed shortly when the brilliant popularizer of scientific knowledge asserts that a man of average size contains clay enough to make a dozen large bricks, and consumes carbonate of lime enough with his food to form a marble mantel-piece in a year! The estimates are really quite beautiful in their way, but are unfortunately like the French definition of a crab. Certain French lexicographers were one day hard at work, and had just defined a crab as “a little red fish which walks backward.” Cuvier, entering just then, was asked what he thought of the definition. “Admirable!” said he, “only the crab is not a fish, it is not red, and it does not walk backward.” I cannot vouch for the authenticity of this anecdote, yet it serves very well to illustrate the case in point. The newspaper scientist was about as accurate in his knowledge as were the lexicographers—especially in the brick-making item; for the two elements most characteristic of clay, namely, silicon and aluminum, are wholly wanting in the human system; or, if present, they are in such small quantities as to be undiscoverable by analysis.</p>
+<p>This example is sufficient to illustrate this particular kind of dabbling. Some thorough scientific man makes a discovery, which is briefly alluded to in some foreign journal of popular science. The periodicals on this side of the ocean, catching up the allusion, dilute it still farther, and presently it becomes a sort of intellectual goose-pond for these dabblers to disport themselves in. The clear fountains of knowledge from which it sprang are lost to sight, and only a mud-puddle remains in view.</p>
+<p>Let me now sum up briefly my object in writing these pages. I have not written them to attack either clergymen or journalists, for I will not attempt to deny that much useful scientific knowledge finds its way to the popular mind through the pulpits and the newspapers. My purpose is twofold: First, to call attention to the silly character of much of what is called “popular science;” and, secondly, to urge upon true scientific men the importance of rendering real knowledge more accessible to the masses. There is a demand for science, or the trash which is written would not be read. It works into nearly all departments of common life, and is, in one way or another, of immediate interest to almost every one. Yet, as I have already said, the current popular lectures upon scientific topics are frothy and worthless: the theologian often misrepresents science for partisan purposes; and the newspapers, with all the good they may do, are too frequently conducted by those ignorant of all science. The people seek for knowledge, and unwittingly get much chaff with their wheat. In some respects the popular mind is filled with absurd superstitions. Strange psychological phenomena are attributed to “animal magnetism,” and other natural wonders are apt to be fathered upon electricity. The latter innocent force is made responsible for almost every thing unusual. Therefore it seems to be time that true students of science should seek to popularize their learning. Faraday, Tyndall, Huxley, and others, have done an admirable work abroad, and their example should be more generally followed here. Our lyceums need more scientific lectures, and our best thinkers and observers should be ready to work in that direction. Men of science constantly lament that the government does not extend more aid to scientific research. The government is a popular one, and the people must be trained before its help can be expected. Therefore, it is for the interest of the teachers as well as for the good of the people, that scientific truths should be popularly put forward in simple, untechnical language, and made accessible to all.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
